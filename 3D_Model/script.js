@@ -15,7 +15,7 @@ controls.dampingFactor = 0.25;
 controls.screenSpacePanning = false;
 
 // Add Ambient and Directional Lighting with white tones
-var ambientLight = new THREE.AmbientLight(0x404040, 1.2); // Bright white ambient light
+var ambientLight = new THREE.AmbientLight(0x808080, 0.75); // Bright white ambient light
 scene.add(ambientLight);
 
 var directionalLight = new THREE.DirectionalLight(0xffffff, 1.5); // Strong directional white light
